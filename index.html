@@ -1,0 +1,137 @@
+  <!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>TaxedAndConfused — 2025 Tax Estimator</title>
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      background: #1B2A4A;
+      color: #fff;
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+    header {
+      background: #B22234;
+      width: 100%;
+      padding: 18px 24px;
+      display: flex;
+      align-items: center;
+      gap: 12px;
+    }
+    header span { font-size: 28px; }
+    header h1 { font-size: 20px; font-weight: 700; letter-spacing: 1px; }
+    .hero {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+      padding: 72px 24px 48px;
+      max-width: 640px;
+    }
+    .hero h2 {
+      font-size: 42px;
+      font-weight: 800;
+      line-height: 1.15;
+      margin-bottom: 20px;
+    }
+    .hero h2 span { color: #FFD700; }
+    .hero p {
+      font-size: 18px;
+      color: #ccd6f6;
+      line-height: 1.6;
+      margin-bottom: 40px;
+    }
+    .badge {
+      display: inline-block;
+      background: #000;
+      color: #fff;
+      text-decoration: none;
+      padding: 14px 28px;
+      border-radius: 12px;
+      font-size: 16px;
+      font-weight: 600;
+      border: 1px solid #555;
+      transition: opacity 0.2s;
+    }
+    .badge:hover { opacity: 0.8; }
+    .features {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 20px;
+      padding: 0 24px 72px;
+      max-width: 800px;
+    }
+    .feature {
+      background: #253656;
+      border-radius: 12px;
+      padding: 24px;
+      width: 220px;
+      text-align: center;
+    }
+    .feature .icon { font-size: 32px; margin-bottom: 10px; }
+    .feature h3 { font-size: 15px; font-weight: 700; margin-bottom: 6px; }
+    .feature p { font-size: 13px; color: #9ab; line-height: 1.5; }
+    footer {
+      margin-top: auto;
+      background: #111c2e;
+      width: 100%;
+      text-align: center;
+      padding: 20px;
+      font-size: 13px;
+      color: #667;
+    }
+    footer a { color: #aab; text-decoration: none; }
+    footer a:hover { text-decoration: underline; }
+  </style>
+</head>
+<body>
+
+  <header>
+    <span>🇺🇸</span>
+    <h1>TaxedAndConfused</h1>
+  </header>
+
+  <div class="hero">
+    <h2>Your 2025 taxes,<br/><span>finally clear.</span></h2>
+    <p>Instantly estimate your federal and state tax bill. All 50 states, real brackets, no guesswork.</p>
+    <a class="badge" href="https://apps.apple.com/app/idYOUR_APP_ID" target="_blank">
+      ⬇️ &nbsp; Download on the App Store
+    </a>
+  </div>
+
+  <div class="features">
+    <div class="feature">
+      <div class="icon">📊</div>
+      <h3>2025 Tax Brackets</h3>
+      <p>Federal and state rates updated for the 2025 tax year.</p>
+    </div>
+    <div class="feature">
+      <div class="icon">🗺️</div>
+      <h3>All 50 States</h3>
+      <p>Accurate progressive state tax breakdowns for every state.</p>
+    </div>
+    <div class="feature">
+      <div class="icon">💼</div>
+      <h3>401(k) Impact</h3>
+      <p>See how contributions reduce your taxable income.</p>
+    </div>
+    <div class="feature">
+      <div class="icon">👫</div>
+      <h3>Single & MFJ</h3>
+      <p>Supports Single and Married Filing Jointly statuses.</p>
+    </div>
+  </div>
+
+  <footer>
+    <p>© 2025 TaxedAndConfused &nbsp;·&nbsp; <a href="/privacy.html">Privacy Policy</a></p>
+    <p style="margin-top:6px;">For estimation purposes only. Not financial or legal advice.</p>
+  </footer>
+
+</body>
+</html>
